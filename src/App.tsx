@@ -1,10 +1,10 @@
 
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
-
+import "../global.css";
 export default function App() {
   return (
     <SafeAreaView style={styles.background}>
-      <Text>Hello</Text>
+      <Text className="text-yellow-400">Hello</Text>
     </SafeAreaView>
   );
 }
