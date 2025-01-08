@@ -4,7 +4,9 @@ import "../global.css";
 export default function App() {
   return (
     <SafeAreaView style={styles.background}>
-      <Text className="text-yellow-400">Hello</Text>
+      <View className=' h-full w-10  bg-slate-600'>
+        hello
+      </View>
     </SafeAreaView>
   );
 }
